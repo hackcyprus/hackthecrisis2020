@@ -54,13 +54,13 @@ section.disable-background{
 }
 
 .black-bg {
-    background: #1C1E20;
+    background: #231F20;
 }
 .black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
     color:#fff;
 }
 .black-bg .panel {
-    background:#1C1E20;
+    background:#231F20;
 }
 
 #faq.black-bg .panel{
@@ -116,6 +116,9 @@ color: #F0C40F;
 .sponsors .sponsor.medium{
     width:210px;
     min-height:100px;
+}
+.sponsors .align-middle-logo{
+    margin-top:100px;
 }
 /******* FAQs *************/
 .panel {
@@ -243,4 +246,12 @@ area{
     position:fixed;
     height:100%;
     width:100%;
+}
+
+/* Mobile fixes */
+@media (max-width: 767px) {
+    .sponsors .align-middle-logo{
+        margin-top:0px;
+        margin-bottom:10px;
+    }
 }
