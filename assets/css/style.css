@@ -7056,6 +7056,10 @@ button[type="submit"] .loading {
   border-radius:20px;
 }
 
+.organizer-text{
+  font-size:20px;
+}
+
 #contacts-map {
   min-height: 300px;
 }
