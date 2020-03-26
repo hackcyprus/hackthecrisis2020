@@ -118,7 +118,7 @@ color: #F0C40F;
     min-height:100px;
 }
 .sponsors .align-middle-logo{
-    margin-top:100px;
+    margin-top:55px;
 }
 /******* FAQs *************/
 .panel {
@@ -252,6 +252,5 @@ area{
 @media (max-width: 767px) {
     .sponsors .align-middle-logo{
         margin-top:0px;
-        margin-bottom:10px;
     }
 }
