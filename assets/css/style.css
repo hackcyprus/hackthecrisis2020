@@ -93,7 +93,7 @@ h2,
 h4,
 h5 {
     letter-spacing: -0.06em;
-    color: #000000;
+    color: #262627;
 }
 h3{
     font-weight: 400;
@@ -212,10 +212,10 @@ span {
     color: inherit;
 }
 .dark-text {
-    color: #000000;
+    color: #262627;
 }
 .dark-text.fa {
-    color: #000000;
+    color: #262627;
 }
 .dark-text .fa {
     color: inherit;
@@ -611,7 +611,7 @@ li {
     box-shadow: inset 0 65px 0 rgba(0, 0, 0, 0.06);
 }
 .btn.btn-black {
-    background-color: #000000;
+    background-color: #262627;
 }
 .btn.btn-white {
     background-color: #ffffff;
@@ -672,7 +672,7 @@ button.btn.btn-block {
     color: #ffffff;
 }
 .dark-text .btn-no-border {
-    color: #000000;
+    color: #262627;
 }
 .btns-container {
     padding: 27px 0 40px;
@@ -850,7 +850,7 @@ button.btn.btn-block {
     padding: 0;
     list-style: none;
     font-size: inherit;
-    color: #000000;
+    color: #262627;
     border: none;
     border-radius: 0;
     overflow-x: hidden;
@@ -914,15 +914,8 @@ button.btn.btn-block {
     background-position: center;
 }
 
-#about {
-    background:#1C1E20;
-}
-
-#about h3, #about h6, #about p {
-    cor:#fff;
-}
 h3.highlight {
-    font-size: 80px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -1039,7 +1032,7 @@ section.disable-background{
     border-color: #ffffff transparent transparent transparent;
 }
 .nav.nav-tabs > li:not(.active) > a:not(:hover):not(:focus) {
-    color: #000000;
+    color: #262627;
 }
 .nav.nav-tabs > li .fa {
     margin-right: 5px;
@@ -1373,7 +1366,7 @@ section.disable-background{
     margin-bottom: 0;
     display: block;
     text-decoration: none;
-    color: #000000;
+    color: #262627;
 }
 .schedule .schedule-item .schedule-item-toggle .time {
     margin-bottom: 10px;
@@ -1495,7 +1488,7 @@ section.disable-background{
     display: block;
     font-size: 0;
     text-decoration: none;
-    color: #000000;
+    color: #262627;
 }
 .schedule.schedule-light .schedule-item .schedule-item-toggle .time {
     vertical-align: top;
@@ -1572,6 +1565,14 @@ section.disable-background{
 /******* FREEBIES *********/
 .freebie-img {
     max-width:150px;
+}
+
+/* ----------------------------------------------------------------------------
+    Themes
+---------------------------------------------------------------------------- */
+
+#themes .panel-heading{
+    background-color:#032066;
 }
 
 /* ----------------------------------------------------------------------------

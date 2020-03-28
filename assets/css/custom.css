@@ -2,32 +2,51 @@
     background:#1C1E20;
 }
 /********** HEADER ***************/
-.header.header-black .header-wrapper {
-  border-bottom:0px;
-    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-
-}
-
-.header-logo  {
-    max-width:200px;
-}
-.header-transparent {
-    background:transparent;
-    color:white;
+.header {
+    position:fixed;
 }
 .header-wrapper {
-    background:transparent;
+  border-bottom:0px;
+    -webkit-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.18);
+}
+.white-header .header-wrapper{
+    background:#002165 !important;
+    -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
+}
+.header-logo  {
+max-width:200px;
+}
+
+.header-wrapper {
+    background: transparent !important;
+}
+@media (max-width: 767px) {
+    .header-wrapper {
+    background:white;
+        color:black;
+}
+    .header:not(.header-color):not(.header-black) .navbar-collapse {
+        background:white !important;
+        color:black;
+    }
+    .header:not(.header-color):not(.header-black) .navigation-list > .navigation-item > .navigation-link, .header:not(.header-color):not(.header-black) .navigation-list > .navigation-item > .navigation-link:not(.active):not(:hover):not(:focus):not(:active) {
+        color: #000;
+    }
 }
 .navigation-link {
-    color:white;
-    font-weight:bold;
-    padding:3px 8px;
-    border-radius:2px;
+color:white;
+font-weight:bold;
+padding:3px 8px;
+border-radius:2px;
 
 }
 a.navigation-link:hover {
-    background: #F0C40F;
-    color:black;
+background: #F0C40F;
+color:black;
 
 }
 /************ COLORS ***************/
@@ -36,13 +55,19 @@ a.navigation-link:hover {
     background-color:transparent;
 }
 .btn:not(.btn-outline-clr):not(.btn-white):not(.btn-outline) {
-    color: #000;
+    color: #FFFFFF;
+    border:2px solid white;
+
 }
 .base-clr-txt, .highlight, a, a:hover, a:active, a:focus, .fa, .icon, .btn.btn-outline-clr, .btn.btn-outline:hover, .btn.btn-outline:focus, .btn.btn-outline:active, .btn.btn-outline.hovered, .btn.btn-outline.pressed, .btn.btn-white, .schedule .tab-content .nav.nav-schedule > li.active > a:not(:hover):not(:active), .schedule .tab-content .nav.nav-schedule > li.active > a:hover, .schedule .tab-content .nav.nav-schedule > li.active > a:focus, .schedule .schedule-item .schedule-item-toggle.collapsed .title .icon, .schedule .schedule-item .schedule-item-body .speaker-name, .schedule.schedule-light .nav.nav-schedule > li.active a, .schedule.schedule-light .nav.nav-schedule > li.active a:hover, .schedule.schedule-light .nav.nav-schedule > li.active a:focus, .schedule.schedule-light .nav.nav-schedule > li.active a *, .schedule.schedule-light .nav.nav-schedule > li.active a:hover *, .schedule.schedule-light .nav.nav-schedule > li.active a:focus *, .schedule.schedule-light .schedule-item .schedule-item-body .speaker-name, .nav.nav-tabs > li.active > a, .nav.nav-tabs > li.active > a:hover, .nav.nav-tabs > li.active > a:focus, .panel-group-alt .panel > a .fa, label.error, input.btn.btn-outline, .pseudo-select .pseudo-select-dropdown-item.selected:not(.disabled), input[type="submit"] + .loading, .testimonial .author-block .name, .package-column .package-title, .package-column.special-column .package-price, .package-column.package-bright:not(.special-column):hover .package-detail, .package-column.package-bright .package-price, .package-column.package-bright.special-column .btn:hover, .package-column.package-bright.special-column .btn:focus, .package-column.package-bright.special-column .btn:active, .package-column.package-bright.special-column .btn.hovered, .package-column.package-bright.special-column .btn.pressed, .counter-box .counter-content > .count, .speaker .name, .balloon .name, .header.header-black .navigation-link:hover, .header.header-black .navigation-link:active, .header.header-black .navigation-link:focus, .header.header-black .navigation-link.active, .dropdown:hover .dropdown-toggle, .dropdown.open .navigation-link.dropdown-toggle, .dropdown.open .navigation-link:not(.active):not(:hover):not(:focus):not(:active).dropdown-toggle, .dropdown-menu .navigation-link:hover, .dropdown-menu .navigation-link:focus, .dropdown-menu .navigation-link:active, .navigation-link:hover, .navigation-link:active, .navigation-link:focus, .navigation-link.active, .header.header-color .navigation-header .buy-btn:hover, .header.header-color .navigation-header .buy-btn:focus, .header.header-color .navigation-header .buy-btn:active, .header.header-color .navigation-header .buy-btn.hovered, .header.header-color .navigation-header .buy-btn.pressed, input.header.header-color .navigation-header .buy-btn, .header .buy-btn {
     color: #F0C40F;
 }
 .base-clr-bd, .preloader-mask .preloader, .preloader-mask .preloader:before, .preloader-mask .preloader:after, .btn.btn-outline-clr, .btn.btn-outline-clr:hover, .btn.btn-outline-clr:focus, .btn.btn-outline-clr:active, .btn.btn-outline-clr.hovered, .btn.btn-outline-clr.pressed, .nav.nav-schedule > li:after, .schedule .tab-content .nav.nav-schedule > li.active, .schedule .schedule-item .lecture-icon-wrapper, .download-schedule-btn:hover, .download-schedule-btn:focus, .schedule.schedule-light .nav.nav-schedule, .schedule.schedule-light .tab-content, .nav-wrapper .nav-current, textarea.error, input[type=text].error, input[type=url].error, input[type=tel].error, input[type=number].error, input[type=color].error, input[type=email].error, input[type=email].error, input[type=password].error, .package-column.special-column, .package-column.package-bright, .package-panel, .counter-block.counter-block-border .counter-box, .speaker .speaker-socials > li .fa, .dropdown-toggle:after, .navigation-link.active, .header .buy-btn, .header .buy-btn:hover, .header .buy-btn:focus, .header .buy-btn:active, .header .buy-btn.hovered, .header .buy-btn.pressed {
     border-color: #F0C40F;
+}
+.buy-btn {
+    background-color: #002165 !important;
+    border:0px !important;
 }
 /********* BACKGROUNDS ***************/
 .bg1 {
@@ -96,20 +121,22 @@ section.disable-background{
     border:0px;
 }
 .schedule.schedule-light .nav.nav-schedule > li.active {
-    background-color:#F0C40F;
+    background-color:#002165;
+    color:white;
+    margin-bottom:4px;
 
 }
 .schedule.schedule-light .nav.nav-schedule > li.active a {
-    color: #1C1E20;
+    color: white;
 }
 .schedule.schedule-light .nav.nav-schedule > li {
-    background-color:#1C1E20;
+    background-color:transparent;
 }
 .schedule.schedule-light .nav.nav-schedule > li a {
 color: #F0C40F;
 }
 .schedule.schedule-light .nav.nav-schedule > li.active a, .schedule.schedule-light .nav.nav-schedule > li.active a:hover, .schedule.schedule-light .nav.nav-schedule > li.active a:focus {
- color: #1C1E20;
+ color: white;
 }
 .schedule.schedule-light .nav.nav-schedule > li {
     border:0px;
@@ -270,8 +297,7 @@ area{
 }
 #hero {
     min-height:100vh;
-    position: relative;
-    top:-100px;
+
 }
 .centered-block {
    margin-top:5%;
@@ -281,4 +307,67 @@ area{
     .sponsors .align-middle-logo{
         margin-top:0px;
     }
+}
+p.emphasis {
+ font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+#about.background-withpattern {
+    background-color: #fcc80b;
+    background-image: url("../img/pattern.png");
+    background-size:cover;
+
+
+}
+.background-withpattern {
+    background-color: #fcc80b;
+    background-image: url("../img/pattern.png");
+    background-size:cover;
+}
+.background-withpattern a {
+    color:#002165 !important;
+}
+i.darkbg {
+    background:#002165;
+    border-radius:50%;
+    padding:40px;
+}
+.schedule.schedule-light .nav.nav-schedule {
+    border:0px;
+    margin-bottom: 10px;
+}
+.schedule.schedule-light .tab-content {
+    background-color: #fcc80b;
+    background-image: url("../img/pattern.png");
+    background-size:cover;
+}
+.schedule.schedule-light .tab-content a {
+    color:#002165 !important;
+}
+.schedule .schedule-item .schedule-item-toggle .time {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#team img {
+    border-radius:50% !important;
+    width:100%;
+}
+.navigation-item {
+ margin-left: 5px;
+}
+@media (max-width: 767px) {
+.hidden-sm {
+    display:none!important;
+}
+.navbar-toggle .icon-bar {
+    background:white;
+    color:#002165;
+}
+}
+@media (max-width: 900px) {
+.hidden-sm {
+    display:none!important;
+}
 }
