@@ -392,6 +392,9 @@ input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
     color: #F0C40F;
 }
+.base-clr-txt{
+    margin-left:20px;
+}
 ::selection {
     color: #ffffff;
     background-color: rgba(254, 73, 24, 0.85);
@@ -905,7 +908,7 @@ button.btn.btn-block {
 /********* INTRODUCTION ************/
 
 .background-intro{
-    background-image:url('../img/backgrounds/introduction.png');
+    background-image:url('../img/backgrounds/hackthecrisis.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -930,6 +933,9 @@ section.disable-background{
 .black-bg {
     background: #231F20;
 }
+.blue-bg{
+    background: #032066;
+}
 .black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
     color:#fff;
 }
@@ -938,7 +944,7 @@ section.disable-background{
 }
 
 #faq.black-bg .panel{
-    background:#F0C40F;
+    background:#032066;
 }
 
 /* ----------------------------------------------------------------------------
@@ -1283,7 +1289,7 @@ section.disable-background{
 .schedule .tab-content {
     padding: 0;
     border-style: solid;
-    border-width: 0 1px 1px;
+    border-width: 1px;
     border-color: transparent #e9e9e9 #e9e9e9;
 }
 .schedule .tab-content .img-responsive {
@@ -1540,7 +1546,7 @@ section.disable-background{
     color: #1C1E20;
 }
 .schedule.schedule-light .nav.nav-schedule > li {
-    background-color:#1C1E20;
+    background-color:#032066;
 }
 .schedule.schedule-light .nav.nav-schedule > li a {
     color: #F0C40F;
@@ -1748,6 +1754,9 @@ section.disable-background{
 .top25{
     margin-top:25px;
 }
+.bottom25{
+    margin-bottom:25px;
+}
 .top100 {
     margin-top:100px;
 }
@@ -1765,7 +1774,7 @@ section.disable-background{
 }
 
 body .custom-color{
-    color: #d3d3d3;
+    color: #f1f1f1;
 }
 
 .underline{
@@ -1788,6 +1797,21 @@ body .custom-color{
     padding-left:15px;
 }
 
+.extra-margin-left{
+    margin-left:15px;
+}
+
+.extra-margin-right{
+    margin-right:15px;
+}
+
+.extra-margin-bottom{
+    margin-bottom:15px;
+}
+
+.extra-margin-top{
+    margin-top:15px;
+}
 
 .li-disk
 {

@@ -11,9 +11,6 @@
     .img-column {
         padding-bottom: 20px;
     }
-    .heading-block {
-        padding: 80px 0;
-    }
     .hero-heading-top {
         top: 30px;
     }
@@ -22,14 +19,19 @@
     }
 }
 @media (max-width: 767px) {
+    .background-intro{
+        background-image:url('../img/backgrounds/hackthecrisis-mobile.jpg');
+        background-size:auto;
+    }
+    .font-70{
+        font-size:30px;
+        line-height:30px;
+    }
     .wrapper {
         width: 100%;
     }
     .bg-cover {
         background-attachment: scroll;
-    }
-    .heading-block {
-        padding: 80px 0;
     }
     .hero-heading-top {
         position: relative;
