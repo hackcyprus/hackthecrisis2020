@@ -3,16 +3,37 @@
 }
 /********** HEADER ***************/
 .header.header-black .header-wrapper {
-  background:#1C1E20;
-  border-bottom:3px solid  #F0C40F;
+  border-bottom:0px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+
 }
+
 .header-logo  {
     max-width:200px;
+}
+.header-transparent {
+    background:transparent;
+    color:white;
+}
+.header-wrapper {
+    background:transparent;
+}
+.navigation-link {
+    color:white;
+    font-weight:bold;
+    padding:3px 8px;
+    border-radius:2px;
+
+}
+a.navigation-link:hover {
+    background: #F0C40F;
+    color:black;
+
 }
 /************ COLORS ***************/
 .base-clr-bg, .overlay.overlay-clr:before, .overlay.overlay-clr[class*="bg"]:before, .base-clr-ovl:before, .btn, .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active, .btn.btn-white.hovered, .btn.btn-white.pressed, .nav.nav-schedule > li.active, .download-schedule-btn:hover, .download-schedule-btn:focus, .schedule.schedule-light .nav.nav-schedule > li, .schedule.schedule-light .schedule-item .schedule-item-toggle .lecture-icon-wrapper, .tabs-vertical .nav.nav-tabs:before, .tabs-vertical .nav.nav-tabs > li:not(.active) a, .panel-group .panel .panel-heading a, .panel-group-alt .panel > a:not(.collapsed), .table > thead > tr > th, .table > thead > tr > td, .package-column.special-column .sale-label, .package-column.package-bright.special-column, .package-panel .buy-btn, .counter-block.counter-block-solid .counter-box, .gallery.light-slider .description-slider-wrapper .bx-pager-link.active, .gallery-thumb-link:after, .speaker .speaker-socials > li .fa, .contacts-wrapper-color:before, .header.header-color .header-wrapper, .header.header-color .dropdown-menu, .header:not(.header-color):not(.header-black) .navbar-collapse, .navbar-toggle .icon-bar, .call-to-action-section > .overlay:before, .thumb-wrapper .overlay:before, .header .buy-btn {
     color: #000;
-    background-color:#F0C40F;
+    background-color:transparent;
 }
 .btn:not(.btn-outline-clr):not(.btn-white):not(.btn-outline) {
     color: #000;
@@ -169,7 +190,7 @@ color: #F0C40F;
 }
 
 body .custom-color{
-    color: #d3d3d3;
+    color: #ffffff;
 }
 
 .underline{
@@ -247,7 +268,14 @@ area{
     height:100%;
     width:100%;
 }
-
+#hero {
+    min-height:100vh;
+    position: relative;
+    top:-100px;
+}
+.centered-block {
+   margin-top:5%;
+}
 /* Mobile fixes */
 @media (max-width: 767px) {
     .sponsors .align-middle-logo{

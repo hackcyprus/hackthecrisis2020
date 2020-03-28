@@ -910,7 +910,7 @@ button.btn.btn-block {
 .background-intro{
     background-image:url('../img/backgrounds/hackthecrisis.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -1774,7 +1774,7 @@ section.disable-background{
 }
 
 body .custom-color{
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .underline{
