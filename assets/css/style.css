@@ -2146,6 +2146,7 @@ area{
     text-decoration: none;
     letter-spacing: 0.22em;
     border: 1px solid transparent;
+    line-height: 20px;
 }
 .panel-group-alt .panel > a.collapsed {
     color: #262627;
