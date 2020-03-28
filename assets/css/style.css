@@ -12,7 +12,7 @@
     border-bottom:3px solid  #F0C40F;
 }
 .header-logo  {
-    max-width:200px;
+    max-width:150px;
 }
 
 /********* BACKGROUNDS ***************/
@@ -485,7 +485,7 @@ li {
     text-decoration: none;
     line-height: 1;
     letter-spacing: 0.59em;
-    border: none;
+    border-color:#262627;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -762,7 +762,7 @@ button.btn.btn-block {
 .navigation-header {
     zoom: 1;
     display: inline-block;
-    padding: 29px 0 0;
+    padding: 10px 0 0;
 }
 .navigation-header:before,
 .navigation-header:after {
@@ -908,7 +908,7 @@ button.btn.btn-block {
     background-image:url('../img/backgrounds/introduction.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height:1200px;
+    background-position: center;
 }
 
 #about {
@@ -1732,8 +1732,21 @@ section.disable-background{
     width:200px;
 }
 /******* HELPERS *********/
+
+.letter-spacing{
+    letter-spacing: 30px;
+}
+.font-70{
+    font-size:70px;
+}
+.top40{
+    margin-top:40px;
+}
 .top32 {
     margin-top:32px;
+}
+.top25{
+    margin-top:25px;
 }
 .top100 {
     margin-top:100px;
