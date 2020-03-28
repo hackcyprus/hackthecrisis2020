@@ -11,12 +11,14 @@
     -moz-box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.18);
     box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.18);
 }
-.white-header .header-wrapper{
-    background:#002165 !important;
+.white-header .header-wrapper {
+    background: #002165 !important;
     -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
     -moz-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.18);
+
 }
+
 .header-logo  {
 max-width:200px;
 }
@@ -28,6 +30,8 @@ max-width:200px;
     .header-wrapper {
     background:white;
         color:black;
+        height: 80px !important;
+        min-height: 80px !important;
 }
     .header:not(.header-color):not(.header-black) .navbar-collapse {
         background:white !important;
@@ -38,10 +42,10 @@ max-width:200px;
     }
 }
 .navigation-link {
-color:white;
-font-weight:bold;
-padding:3px 8px;
-border-radius:2px;
+    color:white;
+    font-weight:bold;
+    padding:3px 8px;
+    border-radius:2px;
 
 }
 a.navigation-link:hover {
