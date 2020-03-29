@@ -20,7 +20,7 @@
 }
 @media (max-width: 767px) {
     .background-intro{
-        background-image:url('../img/backgrounds/hackthecrisis-mobile.jpg');
+        background-image:url('https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/backgrounds/hackthecrisis-mobile.jpg');
         background-size:auto;
     }
     .font-70{

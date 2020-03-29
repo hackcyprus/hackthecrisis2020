@@ -908,7 +908,7 @@ button.btn.btn-block {
 /********* INTRODUCTION ************/
 
 .background-intro{
-    background-image:url('../img/backgrounds/hackthecrisis.jpg');
+    background-image:url('https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/backgrounds/hackthecrisis.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

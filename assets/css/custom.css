@@ -77,14 +77,14 @@ color:black;
 }
 /********* BACKGROUNDS ***************/
 .bg1 {
-    background-image: url("../img/backgrounds/hackathon2016.jpg");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/hackathon2016.jpg");
 }
 .bg4 {
-    background-image: url("../img/backgrounds/capital-impact.jpg");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/capital-impact.jpg");
     background-size:cover;
 }
 .bg5 {
-    background-image: url("../img/backgrounds/hackathon-wristbands.jpg");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/hackathon-wristbands.jpg");
     background-size:cover;
 }
 /********* INTRODUCTION ************/
@@ -214,7 +214,7 @@ color: #F0C40F;
 }
 
 .background-hackcyprus{
-    background-image:url('../img/backgrounds/hackathon-wristbands.jpg');
+    background-image:url('https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/hackathon-wristbands.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -320,14 +320,14 @@ p.emphasis {
 }
 #about.background-withpattern {
     background-color: #fcc80b;
-    background-image: url("../img/pattern.png");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/pattern.png");
     background-size:cover;
 
 
 }
 .background-withpattern {
     background-color: #fcc80b;
-    background-image: url("../img/pattern.png");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/pattern.png");
     background-size:cover;
 }
 .background-withpattern a {
@@ -344,7 +344,7 @@ i.darkbg {
 }
 .schedule.schedule-light .tab-content {
     background-color: #fcc80b;
-    background-image: url("../img/pattern.png");
+    background-image: url("https://res.cloudinary.com/hackcyprus/image/upload/f_auto,q_auto/v1585507910/hackthecrisis/pattern.png");
     background-size:cover;
 }
 .schedule.schedule-light .tab-content a {
