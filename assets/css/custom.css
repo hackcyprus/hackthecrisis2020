@@ -170,7 +170,7 @@ color: #F0C40F;
     min-height:100px;
 }
 .sponsors .align-middle-logo{
-    margin-top:55px;
+    margin-top:15px;
 }
 /******* FAQs *************/
 .panel {
@@ -354,12 +354,18 @@ i.darkbg {
     font-weight: bold;
     color: white;
 }
-#team img {
+#team img, #mentors img {
     border-radius:50% !important;
     width:100%;
 }
 .navigation-item {
  margin-left: 5px;
+}
+
+
+#team img, #mentors img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 @media (max-width: 767px) {
 .hidden-sm {
@@ -375,3 +381,4 @@ i.darkbg {
     display:none!important;
 }
 }
+
